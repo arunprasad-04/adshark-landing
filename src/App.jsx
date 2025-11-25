@@ -102,12 +102,12 @@ function App() {
       {/* SECTION 2: TRUSTED LOGOS */}
       <section className="trusted-logos">
   <div className="logos-row">
-    <img src="/logos/amazon-svgrepo-com.svg" className="logo" alt="Amazon" />
-    <img src="/logos/shopify-svgrepo-com.svg" className="logo" alt="Shopify" />
-    <img src="/logos/meta-logo-facebook-2-svgrepo-com.svg" className="logo" alt="Meta" />
-    <img src="/logos/google-ads-svgrepo-com.svg" className="logo" alt="Google Ads" />
-    <img src="/logos/tiktok-svgrepo-com.svg" className="logo" alt="TikTok" />
-    <img src="/logos/amazon-svgrepo-com.svg" className="logo" alt="Amazon" />
+    <img src="./logos/amazon-svgrepo-com.svg" className="logo" alt="Amazon" />
+    <img src="./logos/shopify-svgrepo-com.svg" className="logo" alt="Shopify" />
+    <img src="./logos/meta-logo-facebook-2-svgrepo-com.svg" className="logo" alt="Meta" />
+    <img src="./logos/google-ads-svgrepo-com.svg" className="logo" alt="Google Ads" />
+    <img src="./logos/tiktok-svgrepo-com.svg" className="logo" alt="TikTok" />
+    <img src="./logos/amazon-svgrepo-com.svg" className="logo" alt="Amazon" />
   </div>
 </section>
 
