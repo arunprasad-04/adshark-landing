@@ -1,16 +1,121 @@
-# React + Vite
+# 🦈 AdShark — Precision Attribution Landing Page  
+A modern, high-performance landing page built using **React + Vite**, inspired by AdShark’s marketing attribution platform.  
+Designed to be clean, fast, responsive, and visually polished.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+---
 
-Currently, two official plugins are available:
+## 🚀 Features  
+### ✔ Pixel-Perfect UI  
+Fully matches the Figma design including:  
+- Hero section with animated brand logos  
+- Attribution problem section  
+- Solutions & core features  
+- Multi-touch attribution UI with icons  
+- Performance-obsessed teams (radial target layout)  
+- Testimonials slider  
+- Footer with product, legal & contact links  
 
-- @vitejs/plugin-react uses Babel (or oxc when used in rolldown-vite) for Fast Refresh
-- @vitejs/plugin-react-swc uses SWC for Fast Refresh
+### ✔ Modern Tech Stack  
+- **React 18**  
+- **Vite** for fast bundling & hot reload  
+- **CSS Modules / Custom CSS**  
+- **SVG Icons + Optimized Assets**  
+- **GitHub Pages** deployment ready  
 
-## React Compiler
+### ✔ Smooth Animations  
+- Logo hover effects  
+- Gradient glows  
+- Radial rings  
+- Soft shadow UI  
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see the documentation.
+---
 
-## Expanding the ESLint configuration
+## 📁 Folder Structure
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check the TS template for how to integrate TypeScript and typescript-eslint in your project.
+adshark-landing/
+│
+├── public/
+│ ├── logos/
+│ ├── icons/
+│ └── favicon.svg
+│
+├── src/
+│ ├── App.jsx
+│ ├── App.css
+│ ├── main.jsx
+│ ├── index.css
+│ └── components/
+│
+├── index.html
+├── package.json
+├── vite.config.js
+└── README.md
+
+yaml
+Copy code
+
+---
+
+## 🛠️ Setup & Installation
+
+### 1️⃣ Clone the repository  
+```bash
+git clone https://github.com/arunprasad-04/adshark-landing.git
+cd adshark-landing
+2️⃣ Install dependencies
+bash
+Copy code
+npm install
+3️⃣ Start development server
+bash
+Copy code
+npm run dev
+Open: http://localhost:5173
+
+🌐 Deployment (GitHub Pages)
+The project uses Vite, so ensure base is set inside vite.config.js:
+
+js
+Copy code
+export default defineConfig({
+  base: '/adshark-landing/',
+  plugins: [react()],
+});
+Build + Deploy
+bash
+Copy code
+npm run build
+npm run deploy
+Your site will be live at:
+
+bash
+Copy code
+https://arunprasad-04.github.io/adshark-landing/
+🖼️ Figma Design Reference
+Used as the UI inspiration (uploaded by user).
+
+👤 Author
+Arun Prasad M
+Front-End Developer | IT Engineer
+
+📜 License
+This project is open-source and free to use.
+
+⭐ Support
+If you like this project, star the repo ❤️
+
+yaml
+Copy code
+
+---
+
+# 🌟 NEXT STEP  
+Tell me if you want:
+
+✅ Deploy using GitHub Actions (automatic deploy on every push)  
+✅ SEO meta tags + OpenGraph preview  
+✅ Mobile Responsive Fixes  
+✅ Light/Dark mode  
+✅ Add animations to any section  
+
+Just say **“Add this feature, Arun”** and I’ll build it for you.
