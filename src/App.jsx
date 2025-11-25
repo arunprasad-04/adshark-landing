@@ -137,7 +137,7 @@ function App() {
 
   {/* Centered Image */}
   <image
-  href="/emotions/Confused.png"
+  href="/adshark-landing/emotions/Confused.png"
   x="0"
   y="0"
   width="300"
@@ -312,7 +312,7 @@ function App() {
     {/* TOP LEFT */}
     <div className="audience-card top-left">
       <div className="icon-box">
-        <img src="/icons/building.png" alt="icon" />
+        <img src="/adshark-landing/icons/building.png" alt="icon" />
       </div>
       <h4>DTC Brands ($100k+/mo)</h4>
       <p>Scale profitably with confidence in your attribution data.</p>
@@ -321,7 +321,7 @@ function App() {
     {/* TOP RIGHT */}
     <div className="audience-card top-right">
       <div className="icon-box">
-        <img src="/icons/chart.png" alt="icon" />
+        <img src="/adshark-landing/icons/chart.png" alt="icon" />
       </div>
       <h4>Performance Marketers</h4>
       <p>Make data-driven optimizations that actually move the needle.</p>
@@ -330,7 +330,7 @@ function App() {
     {/* BOTTOM LEFT */}
     <div className="audience-card bottom-left">
       <div className="icon-box">
-        <img src="/icons/target.png" alt="icon" />
+        <img src="/adshark-landing/icons/target.png" alt="icon" />
       </div>
       <h4>Agencies</h4>
       <p>Deliver transparent reporting and prove ROI to your clients.</p>
@@ -339,7 +339,7 @@ function App() {
     {/* BOTTOM RIGHT */}
     <div className="audience-card bottom-right">
       <div className="icon-box">
-        <img src="/icons/crown.png" alt="icon" />
+        <img src="/adshark-landing/icons/crown.png" alt="icon" />
       </div>
       <h4>Founders & CMOs</h4>
       <p>Get the clear picture you need to allocate budget with confidence.</p>
